@@ -1,6 +1,6 @@
 # Live Stock Tracker
 
-A piece of code to track live stock prices and to get notifications for the changes in stock prices on your linux pc using [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) package.
+A piece of code to track live stock prices and to get voice notifications for the changes in stock prices on your linux pc using [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) package.
 
 ## Quick Setup
 
