@@ -1,0 +1,6 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": false,
+    "python.pythonPath": "/home/parth/anaconda3/envs/compVision/bin/python"
+}
