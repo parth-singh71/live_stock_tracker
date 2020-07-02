@@ -10,6 +10,12 @@ You can quickly download the dependencies using the command given below.
 pip install -r requirements.txt
 ```
 
+Install [SoX](http://sox.sourceforge.net/), with MP3 support on Ubuntu or Debian derivatives:
+
+```shell
+sudo apt-get install sox libsox-fmt-mp3
+```
+
 ## Getting Started
 
 ### For tracking a single company

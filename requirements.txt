@@ -1,0 +1,6 @@
+yahoo_fin==0.8.5
+requests_html==0.10.0
+requests==2.23.0
+google-speech==1.1.0
+pynput==1.6.8
+pandas==0.25.3
