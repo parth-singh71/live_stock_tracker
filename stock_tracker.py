@@ -65,7 +65,7 @@ class GetLiveUpdates:
                 time.sleep(self.time_interval)
                 new_price = get_live_price(self.abbreviation)
                 if not old_price == new_price:
-                    print(get_live_price(self.abbreviation))
+                    print(new_price)
                     get_notifications(f'Stock Price Changed for {self.company}', f'New Price: {new_price}')
                     msg = f'Stock Price Changed for {self.company}. New Price: {new_price}'
                     self.speak(msg, 'en')
@@ -79,12 +79,11 @@ class GetLiveUpdates:
             while should_break is False:
                 for index, company in enumerate(self.companies_list):
                     if company in self.abbrevations_dict:
-                        print(True)
                         old_price = get_live_price(self.abbrevations_dict[company])
                         time.sleep(self.time_interval)
                         new_price = get_live_price(self.abbrevations_dict[company])
                         if not old_price == new_price:
-                            # print(get_live_price(self.abbreviation))
+                            print(new_price)
                             get_notifications(f'Stock Price Changed for {company}', f'New Price: {new_price}')
                             msg = f'Stock Price Changed for {company}. New Price: {new_price}'
                             self.speak(msg, 'en')
