@@ -14,9 +14,8 @@ should_break = False
 
 class GetLiveUpdates:
 
-
     abbrevations_dict = {
-        'Microsoft': 'msft', 
+        'Microsoft': 'msft',
         'Netflix': 'nflx',
         'Facebook': 'fb',
         'Apple': 'aapl',
@@ -114,7 +113,6 @@ class GetLiveUpdates:
 
 
 # updates.get_multi_company_data()
-
 
 
 parser = argparse.ArgumentParser(description='Get live stock prices')
